@@ -103,13 +103,6 @@
             android:layout_marginLeft="20dp"
             android:text="Male" />
 
-        <RadioButton
-            android:id="@+id/rdoOthers"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:text="Others" />
 
         <RadioButton
             android:id="@+id/rdoFemale"
@@ -118,6 +111,14 @@
             android:layout_marginStart="32dp"
             android:layout_marginLeft="32dp"
             android:text="Female" />
+
+        <RadioButton
+            android:id="@+id/rdoOthers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:text="Others" />
 
     </RadioGroup>
 

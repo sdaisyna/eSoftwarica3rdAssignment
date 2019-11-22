@@ -69,7 +69,7 @@ public class AddStudentFragment extends Fragment {
                             btnGender.getText().toString(),
                             Integer.parseInt(edtAge.getText().toString()),
                             images));
-                    
+
                     Toast.makeText(getContext(),"Student Added",Toast.LENGTH_LONG).show();
                 }
             }

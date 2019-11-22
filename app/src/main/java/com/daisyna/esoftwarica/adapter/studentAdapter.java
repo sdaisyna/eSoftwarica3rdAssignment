@@ -75,7 +75,7 @@ public class studentAdapter extends RecyclerView.Adapter<studentAdapter.Students
             this.mContext=mContext;
             this.stdList=lstStudents;
 
-            image.setOnClickListener(new View.OnClickListener() {
+            itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Students student = stdList.get(getAdapterPosition());
