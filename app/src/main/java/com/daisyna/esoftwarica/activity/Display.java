@@ -41,8 +41,8 @@ public class Display extends AppCompatActivity {
 
 
         lstStudents.add(new Students("Daisyna Shrestha", "Kathmandu", "Female", 22, R.drawable.female));
-        lstStudents.add(new Students("Rupesh Dhakal", "Kathmandu", "Male", 21, R.drawable.male));
-        lstStudents.add(new Students("Sobit Khadka", "Kathmandu", "Others", 81, R.drawable.others));
+        lstStudents.add(new Students("Elen Robert", "Kathmandu", "Male", 21, R.drawable.male));
+
 
     }
 }
